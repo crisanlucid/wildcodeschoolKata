@@ -28,8 +28,31 @@ cd ../../
 rm -rf backup
 rm -rf project
 ```
-### LVL 2  -  Git basic 
+### LVL 2  -  Git basic (localhost) 
 Create a project dir and create a git project. Create 2 branches : master , develop. Create a new branch respecting GIT FLOW aproach . The new branch is copy of develop and the name is *feature/TICKER-NO-Component*. Create a new file and add some modifications to it. Commit all the changes to the branch *feature/TICKER-NO-Component* . Merge the branch with *develop* branch (solve the conflicts in case) . Delete the branch *feature/TICKER-NO-Component*; reset enviroment
+
+```shell
+#create project
+mkdir git_project
+cd git_project
+git init
+git checkout develop
+git checkout feature/ticket-number-my-Component
+echo "my first code" > file_1.txt
+git add file_1.txt
+git status
+git commit -m "add Component"
+git checkout develop
+git merge checkout feature/ticket-number-my-Component
+git branch
+git branch -D feature/ticket-number-my-Component
+git branch
+
+#clean project
+cd ..
+rm -rf git_project
+
+```
 
 ### LVL 3  -  Learn shortcuts Commands from IDE
 Open Favorite IDE ( WebStorm, Visual Studio Code, Atom, SublimeText3) and practice commands from the keybords (define shortcuts for it):
