@@ -5,6 +5,29 @@ Please take 5-10 minutes and try one of the exercise which you want to master it
 ### LVL 1  -  Back up project
 back-up your projects by creating a copy of your directory with all the files and copy to *back-up* dir; reset enviroment
 
+
+```shell
+#backup project
+mkdir project 
+mkdir backup
+cd project
+touch file_1.txt
+echo "#test 1" > file_1.txt
+cat file_1.txt
+echo "#test 2" > file_2.txt
+cat file_2.txt
+cd ..
+cp -R project backup
+cd backup
+ls
+cd project
+ls
+cd ../../
+
+#clean up
+rm -rf backup
+rm -rf project
+```
 ### LVL 2  -  Git basic 
 Create a project dir and create a git project. Create 2 branches : master , develop. Create a new branch respecting GIT FLOW aproach . The new branch is copy of develop and the name is *feature/TICKER-NO-Component*. Create a new file and add some modifications to it. Commit all the changes to the branch *feature/TICKER-NO-Component* . Merge the branch with *develop* branch (solve the conflicts in case) . Delete the branch *feature/TICKER-NO-Component*; reset enviroment
 
