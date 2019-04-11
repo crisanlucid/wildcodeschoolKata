@@ -65,6 +65,53 @@ Open Favorite IDE ( WebStorm, Visual Studio Code, Atom, SublimeText3) and practi
 
 ### LVL 4  -  Install dependencies using NPM commands
 use terminal and check
+```terminal
+#create project
+mkdir npm_kata
+cd ..
+
+# working with npm
+npm install  yarn
+npm install  npx
+npm install  np
+npm install  npm-name-cli
+
+# debugging
+npm install  ndb
+npm install  node-inspector
+
+# general utilities
+npm install  tldr
+npm install  now
+npm install  spoof
+npm install  fkill-cli
+npm install  castnow
+npm install  github-is-starred-cli
+npm install  vtop
+
+# react
+npm install  create-react-app
+npm install  create-react-library
+npm install  react-native-cli
+
+# linting
+npm install  eslint
+npm install  babel-eslint
+npm install  eslint-config-standard
+npm install  eslint-config-standard-react
+npm install  eslint-config-standard-jsx
+npm install  eslint-plugin-react
+npm install  eslint-config-prettier
+npm install  eslint-plugin-prettier
+npm install  prettier
+npm install  standard
+npm install  typescript
+
+#clean project
+cd ..
+rm -rf npm_kata
+```
+
 
 ### LVL 5  -  Config  scripts in package.json
 Create a file package.json with a basic scheleton; define a command script for testing JS files; Run the scripts in the console
