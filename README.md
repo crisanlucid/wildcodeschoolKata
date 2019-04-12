@@ -73,7 +73,7 @@ use terminal and check
 ```terminal
 #create project
 mkdir npm_kata
-cd ..
+cd npm_kata
 
 # working with npm
 npm install  yarn
