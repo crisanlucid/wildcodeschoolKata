@@ -70,7 +70,7 @@ https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybin
 
 ### LVL 4  -  Install dependencies using NPM commands
 use terminal and check
-```terminal
+```shell
 #create project
 mkdir npm_kata
 cd npm_kata
@@ -123,7 +123,7 @@ rm -rf npm_kata
 Create a file package.json with a basic scheleton; define a command script for testing JS files; Run the scripts in the console.
 links: ["how to create npm scripts"](https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633)
 
-```console
+```shell
 #create project
 mkdir npm_project
 cd npm_project
@@ -132,7 +132,7 @@ npm init
 ```
 ![alt text](https://raw.githubusercontent.com/crisanlucid/wildcodeschoolKata/master/assets/images/npm_config_package.png)
 
-```console
+```shell
 npm i http-server
 ```
 
@@ -141,7 +141,7 @@ define script alias "server" in package.json to run the http-server module
 ![alt text](https://raw.githubusercontent.com/crisanlucid/wildcodeschoolKata/master/assets/images/package_json_img.png)
 
 
-```console
+```shell
 #clean project
 cd ..
 rm -rf npm_project
