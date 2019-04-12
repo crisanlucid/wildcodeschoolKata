@@ -54,14 +54,19 @@ rm -rf git_project
 
 ```
 
-### LVL 3  -  Learn shortcuts Commands from IDE
+### LVL 3  -  Learn Shortcuts Commands from IDE
 Open Favorite IDE ( WebStorm, Visual Studio Code, Atom, SublimeText3) and practice commands from the keybords (define shortcuts for it):
-1. open terminal
+1. open terminal in IDE
 1. hide panel with root project (tree structure)
+1. Open a javascript file (not empty)
 1. duplicate line
 1. delete entire line
 1. save file
 1. search and replace
+
+VISUAL STUDIO CODE:
+import shorcuts from Intellij Idea
+https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings
 
 ### LVL 4  -  Install dependencies using NPM commands
 use terminal and check
