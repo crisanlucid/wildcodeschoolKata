@@ -119,6 +119,31 @@ rm -rf npm_kata
 ```
 
 
-### LVL 5  -  Config  scripts in package.json
-Create a file package.json with a basic scheleton; define a command script for testing JS files; Run the scripts in the console
+### LVL 5  -  Config NPM Scripts in package.json
+Create a file package.json with a basic scheleton; define a command script for testing JS files; Run the scripts in the console.
+links: ["how to create npm scripts"](https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633)
 
+```console
+#create project
+mkdir npm_project
+cd npm_project
+
+npm init
+```
+![alt text](https://raw.githubusercontent.com/crisanlucid/wildcodeschoolKata/master/assets/images/npm_config_package.png)
+
+```console
+npm i http-server
+```
+
+define script alias "server" in package.json to run the http-server module
+
+![alt text](https://raw.githubusercontent.com/crisanlucid/wildcodeschoolKata/master/assets/images/package_json_img.png)
+
+
+```console
+#clean project
+cd ..
+rm -rf npm_project
+npm init
+```
