@@ -76,6 +76,7 @@ mkdir npm_kata
 cd npm_kata
 
 # working with npm
+npm init
 npm install  yarn
 npm install  npx
 npm install  np
