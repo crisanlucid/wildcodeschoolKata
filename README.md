@@ -136,9 +136,9 @@ npm init
 npm i http-server
 ```
 
-define script alias "server" in package.json to run the http-server module
+define script alias "server" in package.json to run a command for the http-server module with port 3000
 
-![alt text](https://raw.githubusercontent.com/crisanlucid/wildcodeschoolKata/master/assets/images/package_json_img.png)
+![alt text](https://raw.githubusercontent.com/crisanlucid/wildcodeschoolKata/master/assets/images/img_package.json.png)
 
 
 ```shell
