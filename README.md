@@ -69,7 +69,8 @@ import shorcuts from Intellij Idea
 https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings
 
 ### LVL 4  -  Install dependencies using NPM commands
-use terminal and check
+use terminal and install 5 packages; 
+requirement: Nodejs installed; [install Nodejs] (https://nodejs.org/en/download/)
 ```shell
 #create project
 mkdir npm_kata
