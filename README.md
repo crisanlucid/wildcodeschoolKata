@@ -122,3 +122,36 @@ rm -rf npm_kata
 ### LVL 5  -  Config  scripts in package.json
 Create a file package.json with a basic scheleton; define a command script for testing JS files; Run the scripts in the console
 
+### LVL 6 -  Git Remote
+### LVL 7 -  Git Advanced
+
+a) Undo last commit of the project
+b) Put all the modifications in Stash and save it. Show list of stash and retrieve the stash index
+c) Rewind the project structure to a particular commit
+
+```terminal
+#create project
+mkdir npm_kata
+cd npm_kata
+
+git reset --soft HEAD~1
+git add .
+
+#stash
+git stash save "add my first stash"
+git stash list
+git stash apply stash@{0}
+
+#commit
+git log
+#copy the hashcode form the commit
+git checkout 8d0ea92e1e036a4280cc9d39176dac61e4648292
+
+#clean project
+cd ..
+rm -rf npm_kata
+```
+
+
+
+
