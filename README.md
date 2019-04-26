@@ -148,3 +148,5 @@ cd ..
 rm -rf npm_project
 npm init
 ```
+### LVL 6 - Git flow (localhost + remote) 
+https://drive.google.com/file/d/1qqjCHO7Ndqp1cyp2M8nfRhdyK5PW5rtq/view?usp=sharing
