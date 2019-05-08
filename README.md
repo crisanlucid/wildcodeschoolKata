@@ -146,7 +146,47 @@ define script alias "server" in package.json to run a command for the http-serve
 #clean project
 cd ..
 rm -rf npm_project
-npm init
 ```
 ### LVL 6 - Git flow (localhost + remote) 
 https://drive.google.com/file/d/1qqjCHO7Ndqp1cyp2M8nfRhdyK5PW5rtq/view?usp=sharing
+
+### LVL 7 - Git Undo last commit (advanced + localhost)
+resource: [here] (https://www.jquery-az.com/undo-last-commit-in-git/)
+
+By using the **-soft** flag, you may keep the changes in the last commit while moving the HEAD pointer back to the last commit
+By usung  the **–hard** flag with reset command. So, you have to be careful as reverting back to last commits. You may lose your important files if undone carelessly.
+
+
+```shell
+#create project
+mkdir git_project
+git init
+
+touch alpha.txt
+git add . & git commit -m "Local commit #1"
+touch beta.txt
+git add . & git commit -m "Local commit #2"
+touch lucian.js
+git add . & git commit -m "Local commit #3"
+touch radu.js
+git add . & git commit -m "Local commit #4"
+touch gabriel.js
+git add . & git commit -m "Local commit #5"
+
+#shows the history of HEAD as the git commit commands 
+git reflog
+
+#the file will be put in stage
+git reset --soft HEAD~1
+git commit -m "Local commit #5"
+
+#shows the history of HEAD as the git commit commands 
+git reflog
+
+#force to be reset to previous commit
+git reset --hard HEAD~1
+
+#clean project
+cd ..
+rm -rf git_project
+```
